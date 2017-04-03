@@ -1,0 +1,30 @@
+{
+  "name": "spark-javascript",
+  "version": "0.1.0",
+  "description": "Simple JS event emitter.",
+  "main": "dist/spark.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hesambayat/spark-javascript.git"
+  },
+  "author": "Hesam Bayat <hesam.bayat@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hesambayat/spark-javascript/issues"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "homepage": "https://github.com/hesambayat/spark-javascript#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "~3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "uglify-save-license": "~0.4.1"
+  }
+}
